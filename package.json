@@ -1,0 +1,19 @@
+{
+  "name": "ebay-selenium-project",
+  "version": "1.0.0",
+  "description": "Selenium automation project for testing eBay features",
+  "scripts": {
+    "test": "mocha --timeout 60000 ./tests/Test.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
+  },
+  "author": "Habeeb-MD",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.15.0"
+  },
+  "devDependencies": {
+    "webdriver-manager": "^12.1.9"
+  }
+}
